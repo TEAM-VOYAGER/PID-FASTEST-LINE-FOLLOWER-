@@ -45,7 +45,7 @@ The robot uses <strong>infrared (IR) sensors</strong> to detect the line on the 
 
 <h2>How to Use</h2>
 <ol>
-  <li><strong>Assemble the components</strong> as per the circuit diagram.</li>
+  <li><strong>Assemble the components</strong> as per the circuit diagram provided in our Repository which is in the form of schematic.</li>
   <li>Upload the <strong>Arduino code</strong> that implements the PID algorithm.</li>
   <li>Calibrate the <strong>PID parameters</strong> (P, I, and D) based on your environment.</li>
   <li>Power up the robot with the <strong>16V LiPo battery</strong> and watch it follow the line at high speed!</li>
