@@ -48,6 +48,29 @@ The robot uses <strong>infrared (IR) sensors</strong> to detect the line on the 
 
 <p>This balance allows the robot to follow the path smoothly, even at high speeds.</p>
 
+```cpp
+current_error = setpoint - average;
+  P = current_error * kp;
+  I += current_error;  // Accumulate the integral term
+  D = kd * (current_error - prev_current_error);
+
+  // Compute PID value and prevent integral windup
+  PID = P + (ki * I) + D;
+  I = constrain(I, -255, 255); // Prevent integral windup
+  prev_current_error = current_error;
+
+  left_motor = max_pwm +PID;
+  right_motor = max_pwm - PID;
+
+  // Ensure motor speed is within valid range
+  left_motor = constrain(left_motor, -max_pwm, max_pwm);
+  right_motor = constrain(right_motor, -max_pwm, max_pwm);
+
+  // Set motor speeds using CytronMD
+  motor2.setSpeed(left_motor+bal);  // Left motor
+  motor1.setSpeed(right_motor);  // Right motor
+```
+
 <h2>How to Use</h2>
 <ol>
   <li><strong>Assemble the components</strong> as per the circuit diagram provided in our Repository which is in the form of schematic.</li>
