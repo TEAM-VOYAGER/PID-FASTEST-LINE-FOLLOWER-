@@ -4,6 +4,10 @@
 This project showcases an <strong>autonomous robot</strong> capable of following a path using <strong>real-time feedback control</strong>. The robot utilizes a <strong>set of IR sensors</strong> to detect the path and maintain alignment, while a <strong>PID algorithm</strong> ensures smooth and precise navigation. This allows the robot to react quickly to deviations and stay on track efficiently.
 </p>
 
+![IMG_20240927_105256](https://github.com/user-attachments/assets/1796a9ca-238d-4ad9-85e4-f35fd1a2ffd0)
+
+
+
 <h2>Key Features</h2>
 <ul>
   <li><strong>Precise Path Tracking:</strong> Multiple IR sensors detect the line and surroundings.</li>
