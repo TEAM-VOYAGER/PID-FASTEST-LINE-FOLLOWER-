@@ -5,7 +5,7 @@ This project showcases an <strong>autonomous robot</strong> capable of following
 </p>
 
 
-![IMG_20240927_105301](https://github.com/user-attachments/assets/7671b889-13c1-4521-abed-c3fab65bc24b)
+<img src="https://github.com/user-attachments/assets/7671b889-13c1-4521-abed-c3fab65bc24b" alt="description" width="2000" height="1615"/>
 
 
 
