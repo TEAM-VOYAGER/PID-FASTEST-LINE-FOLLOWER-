@@ -32,7 +32,7 @@ This project showcases an <strong>autonomous robot</strong> capable of following
 
 <h2>Robot Dimensions</h2>
 <p>
-The robot has a compact and efficient design, with dimensions of <strong>12 cm (L) x 5 cm (W) x 6 cm (H)</strong>. This size ensures agility and optimal performance, making it suitable for high-speed line-following tasks.
+The robot has a compact and efficient design, with dimensions of <strong>174 mm (L) x 128.27 mm (W) x 50 mm (H)</strong>. This size ensures agility and optimal performance, making it suitable for high-speed line-following tasks.
 </p>
 
 
