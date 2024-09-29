@@ -1,7 +1,7 @@
 #include "CytronMotorDriver.h"
 CytronMD motor1(PWM_PWM, 11,10);
 CytronMD motor2(PWM_PWM, 3, 9);  
-
+//global variables
 int s[8];
 int threshold = 512;  // Default threshold
 int min_threshold = 0, max_threshold = 1023;
