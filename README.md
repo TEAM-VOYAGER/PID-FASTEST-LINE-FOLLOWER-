@@ -81,5 +81,5 @@ current_error = setpoint - average;
 
 <h2>Conclusion</h2>
 <p>
-This project demonstrates the implementation of a <strong>high-speed, PID-controlled line-following robot</strong>, ideal for competitive robotics or learning control systems. The combination of real-time feedback and precise motor control results in efficient navigation along a path, adapting to obstacles and deviations.
+This project demonstrates the implementation of a <strong>high-speed of 0.8m/s and had accuracy of 98.27%, PID-controlled line-following robot</strong>, ideal for competitive robotics or learning control systems. The combination of real-time feedback and precise motor control results in efficient navigation along a path, adapting to obstacles and deviations.
 </p>
