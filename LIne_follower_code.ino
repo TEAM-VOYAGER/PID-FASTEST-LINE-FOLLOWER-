@@ -1,7 +1,7 @@
 #include "CytronMotorDriver.h"
 CytronMD motor1(PWM_PWM, 11,10);
 CytronMD motor2(PWM_PWM, 3, 9);  
-//global variables
+//global variables starts
 int s[8];
 int threshold = 512;  // Default threshold
 int min_threshold = 0, max_threshold = 1023;
@@ -15,7 +15,7 @@ int sensor_position = 0;
 int min_readings[8];
 int max_readings[8];
 int sensor_readings[8];
-
+//Ends here
 // PID constants
 
 float kp = 18.55;    // Proportional gain
